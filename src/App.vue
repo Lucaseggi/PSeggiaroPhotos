@@ -1,5 +1,7 @@
 <template>
   <v-app>
+    <v-img
+     src="@/assets/logo.png"/>
     <AppBar/>
       <v-btn v-if="showOnPhone()">
         Da button
